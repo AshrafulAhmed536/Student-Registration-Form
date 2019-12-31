@@ -1,0 +1,72 @@
+<html>
+<head><title>Registration</title>
+</head>
+<body topmargin=100px>
+<form action=" " name="Student Registration"
+on submit="return(validate());">
+<table cellpadding=2 width="25%" bgcolor="99ffff" align=center>
+<tr>
+<td colspan=2>
+<center><font size=4><b>Student Registration Form</b></font>
+</center></td></tr>
+<tr>
+<td>Name</td>
+<td><input type="text" id="Yourname" size=30></td></tr>
+<tr><td>DOB</td>
+<td><input type="date" id="d_o_b"></td></tr>
+<tr>
+<td>Father's name</td>
+<td><input type="text" id="Fathername" size=30></td></tr>
+<tr>
+<td>Postal Address</td>
+<td><textarea id="postaladdress"></textarea></td></tr>
+<tr><td>State</td>
+<td><select id="State">
+<option selected>Select--</option>
+<option>New Delhi</option>
+<option>Maharashtra</option>
+<option>West Bengal</option>
+<option>Andhra Pradesh</option>
+<option>Others</option>
+</select></td></tr>
+<tr><td>city</td>
+<td><select id="city">
+<option selected>Select--</option>
+<option>Delhi</option>
+<option>Mumbai</option>
+<option>Kolkata</option>
+<option>Visakhapatnam</option>
+<option>Others</option>
+</select></td></tr>
+<tr><td>Pincode</td>
+<td><input type="text" id="pincode" size=7></td></tr>
+<td>Gender</td>
+<td><input id="male" type=radio name="gender">male <input id="female" type=radio name="gender">female</td></tr>
+<tr><td>language</td>
+<td><select id="language">
+<option selected>Select--</option>
+<option>English</option>
+<option>Hindi</option>
+<option>Bengali</option>
+<option>Telugu</option>
+<option>Others</option>
+</select></td></tr>
+<tr><td>Course</td>
+<td><select id="Course">
+<option selected>Select--</option>
+<option>B.Tech.</option>
+<option>B.Sc.</option>
+<option>BCA</option>
+<option>BBA</option>
+<option>Others</option>
+</select></td></tr>
+<tr><td>Contact No.</td>
+<td><input id="phno" size=13></td></tr>
+<tr><td><br></td></tr>
+<tr><td align=center><input type="reset"></td>
+<td colspan=2><input type="Submit" value="Submit Form"></td></tr>
+<script src="Validate.js">
+</script>
+</body>
+</html>
+
